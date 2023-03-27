@@ -48,3 +48,10 @@ group :development do
   # gem "spring"
 end
 
+gem 'devise'
+gem 'simple_token_authentication'
+
+# Rubocop
+gem 'rubocop', '~> 1.24.1', require: false
+gem 'rubocop-rails', require: false
+gem 'rubocop-rspec', require: false
