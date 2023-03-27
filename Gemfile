@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "http://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.0.0"
@@ -55,3 +55,6 @@ gem 'simple_token_authentication'
 gem 'rubocop', '~> 1.24.1', require: false
 gem 'rubocop-rails', require: false
 gem 'rubocop-rspec', require: false
+
+# Database credentials:
+gem 'figaro'
