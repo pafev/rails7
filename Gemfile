@@ -61,4 +61,4 @@ gem 'figaro'
 
 gem "activestorage"
 
-gem 'active_model_serializers'
+gem 'panko_serializer'
